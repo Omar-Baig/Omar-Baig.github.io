@@ -76,7 +76,9 @@ header {
     flex-wrap: wrap;
     margin-right: -15px;
     margin-left: -15px;
+
 }
+
 
 .btn-1 {
     padding: 5px;
@@ -133,7 +135,7 @@ header {
     position: relative;
     text-align: center;
     width: 100%;
-    top: 20%;
+    top: 25%;
     left: 0;
 }
 
@@ -221,10 +223,28 @@ header {
     background: #ff0000;
 }
 
-#map {
-    height: 400px;
+.map-container {
     margin-top: 50px;
-
 }
 
-@media (max-width:768px) {}
+#map {
+    height: 500px;
+    min-width: 200px;
+    position: absolute;
+}
+
+@media (max-width:992px) {
+    .col-lg-3,
+    .col-md-6 {
+        width: 50%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (max-width:1200px) {
+    #map {
+        margin-top: 100px;
+    }
+}
