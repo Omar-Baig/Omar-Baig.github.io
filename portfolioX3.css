@@ -229,8 +229,8 @@ header {
 
 #map {
     height: 500px;
-    width:100%;
-    position: absolute;
+    width: 100%;
+    position: relative;
 }
 
 @media (max-width:992px) {
