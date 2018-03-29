@@ -193,7 +193,7 @@ header {
 .footer {
     height: 100px;
     background-color: red;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .footer-content {
@@ -221,6 +221,11 @@ header {
 .left-line-out:hover:after {
     width: 100%;
     background: #ff0000;
+}
+
+#map {
+    height: 400px;
+    width:
 }
 
 @media (max-width:992px) {
