@@ -99,31 +99,44 @@
 
     <div class="container section-3 ">
         <div class="section-3-content text-center ">
-            <h2>Languages</h2>
-            <hr class="section-2-hr ">
-            <div class="row ">
-                <div class="col-sm-3 text-center ">
-                    <div class="lng-box "><i class="fab fa-html5 "></i></div>
-                    <h4 class="lng-sub ">Html</h4>
+            <h2 class="lng-container-title">
+                Languages
+                <hr class="section-2-hr ">
+            </h2>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fab fa-html5 text-primary mb-3 sr-icons"></i>
+                        <h3 class="mb-3">Html 5</h3>
+                    </div>
                 </div>
-                <div class="col-sm-3 text-center ">
-                    <div class="lng-box "><i class="fab fa-css3-alt "></i></div>
-                    <h4 class="lng-sub ">CSS3</h4>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fab fa-css3-alt text-primary mb-3 sr-icons"></i>
+                        <h3 class="mb-3">CSS3</h3>
+                    </div>
                 </div>
-                <div class="col-sm-3 text-center ">
-                    <div class="lng-box "><i class="fab fa-js-square "></i></div>
-                    <h4 class="lng-sub ">Javascript</h4>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fab fa-js-square text-primary mb-3 sr-icons"></i>
+                        <h3 class="mb-3">Javascript</h3>
+                    </div>
                 </div>
-                <div class="col-sm-3 text-center ">
-                    <div class="lng-box "><i class="fab fa-python "></i></div>
-                    <h4 class="lng-sub ">Bootstrap</h4>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fab fa-python text-primary mb-3 sr-icons"></i>
+                        <h3 class="mb-3">Python</h3>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
     <section>
-        <div class="container-fluid">
+
+        <div class="container map-container">
             <div id="map"></div>
         </div>
 
@@ -141,7 +154,7 @@
 
     <script>
         function myMap() {
-            var myCenter = new.google.maps.LatLng(51, -.02);
+            var myCenter = new google.maps.LatLng(51.508742, -0.120850);
             var mapCanvas = document.getElementById("map");
             var mapOptions = {
                 center: myCenter,
@@ -149,10 +162,11 @@
             };
             var map = new google.maps.Map(mapCanvas, mapOptions);
             var marker = new google.maps.Marker({
-                postion: myCenter
+                position: myCenter
             });
             marker.setMap(map);
         }
+
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCpxQ2rDpHx7GNOpkD3qvt_92HfLRVwgE0&callback=myMap"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js " integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ " crossorigin="anonymous "></script>
