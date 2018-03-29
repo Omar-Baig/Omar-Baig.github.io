@@ -183,11 +183,17 @@ header {
 .image-1-text {
     font-size: 20px;
     margin-top: 80px;
+    width: 90%;
 
 }
 
 .pf-container {
     padding: 2pc;
+}
+
+.pf-container:hover {
+    border: 3px red solid;
+    transition: ease .3s;
 }
 
 .footer {
@@ -225,7 +231,7 @@ header {
 
 #map {
     height: 400px;
-    width:
+
 }
 
 @media (max-width:992px) {
