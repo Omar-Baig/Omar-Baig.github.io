@@ -1,0 +1,124 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Omar Baig</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="Portfolio7.css" media="screen" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="anime.min.js"></script>
+
+</head>
+
+<body>
+    <!--    Intro Section   -->
+    <header class="intro container">
+        <div>
+            <p class="name text-center animated bounceIn">Omar Baig</p>
+        </div>
+        <div>
+            <p class="subtitle text-center animated bounceIn">Front-End Developer</p>
+        </div>
+        <div class="button-links">
+            <div>
+                <button class="col-sm-4 button-link text-center left-line-out animated infinite pulse">About</button>
+            </div>
+            <div>
+                <button class="col-sm-4 button-link text-center left-line-out animated infinite pulse">Works</button>
+            </div>
+            <div>
+                <button class="col-sm-4 button-link text-center left-line-out animated infinite pulse">Contact</button>
+            </div>
+        </div>
+
+    </header>
+    <section style="">
+        <div id="about" class="area-section container">
+            <div class="col-lg-12 text-center">
+                <div class="title-container">
+                    <h2 class="section-heading-text">About</h2>
+                    <hr class="line">
+                    <h4 class="section-sub-heading">Let me introduce myself</h4>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <p class="text-center about-text">My is name is Omar Baig and I am a junior front-end developer. I love making websites and tinkering with new libraries in projects to better my skills as a developer. When I am not working on websites I am reading about how to improve at making websites and being outdoors. If you would like to work with me then I would love to hear from you.</p>
+            </div>
+            <div class="col-sm-6">
+                <img src="blackcat.jpg" class="about-pic">
+            </div>
+            <!--Works Section-->
+            <div id="Works">
+                <div class="col-sm-12 text-center">
+                    <div class="title-container">
+                        <h2 class="section-heading-text">Works</h2>
+                        <hr class="line">
+                        <h4 class="section-sub-heading">Some works examples</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="works-title">
+                        <p class="text-center">Lorem Ipsum</p>
+                    </div>
+                    <img src="mountains.jpg" class="work-pic">
+                    <div class="work-description">
+                        <p class="text-center">lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="works-title">
+                        <p class="text-center">Lorem Ipsum</p>
+                    </div>
+                    <img src="mountains.jpg" class="work-pic">
+                    <div class="work-description">
+                        <p class="text-center">lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="works-title">
+                        <p class="text-center">Lorem Ipsum</p>
+                    </div>
+                    <img src="mountains.jpg" class="work-pic">
+                    <div class="work-description">
+                        <p class="text-center">lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+            <!--            Contact-->
+            <div id="Contact">
+                <div class="col-sm-12 text-center">
+                    <div class="title-container">
+                        <h2 class="section-heading-text">Contact</h2>
+                        <hr class="line">
+                        <h4 class="section-sub-heading">You can find me here</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <canvas class="background"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+    <script>
+        window.onload = function() {
+            Particles.init({
+                selector: '.background',
+                connectParticles: true,
+                sizeVariations: 4,
+                speed: .3,
+                maxParticles: 150,
+                color: ['#145A32', '#78b2d8', '#F1C40F'],
+                minDistance: 100
+            });
+        };
+
+    </script>
+
+</body>
+
+</html>
