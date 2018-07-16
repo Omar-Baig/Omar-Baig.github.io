@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+html,
+body,
+header {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+.background {
+    position: absolute;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.intro {
+    color: #d6c32d;
+    left: 0;
+    margin-top: -100px;
+    position: relative;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+}
+
+.left-line-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    color: #d6c32d;
+    z-index: 99;
+}
+
+.left-line-out:after {
+    content: '';
+    display: block;
+    margin-top: 2px;
+    height: 2px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+    z-index: 99;
+}
+
+.left-line-out:hover:after {
+    width: 100%;
+    background: #d6c32d;
+    z-index: 99;
+}
+
+.name {
+    font-size: 38px;
+    color: #007900;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #007900;
+}
+
+.button-links {
+    color: #d6c32d;
+    left: 0;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.button-link {
+    padding-top: 5px;
+    background-color: transparent;
+    font-size: 18px;
+    max-width: 550px;
+}
+
+.area-section {
+    position: relative;
+    height: 100%;
+    margin-top: 100px;
+    background-color: white;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.06), 0 1px 0 0 rgba(0, 0, 0, 0.02);
+    z-index: 10;
+}
+
+.gradient {
+    width: 100%;
+    height: .5rem;
+    animation: gradient 20s infinite;
+    z-index: 99;
+    margin-top: 2px;
+}
+
+.about-text {
+    font-size: 1.35em;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    padding: 1pc;
+}
+
+.line {
+    width: 100px;
+    margin: 0 auto;
+    height: 3px;
+    background-color: #eaaf1b;
+}
+
+.section-sub-heading {
+    font-size: 1.12em;
+    padding: .5pc;
+}
+
+.title-container {
+    border: 3px solid #145A32;
+    margin: 2pc auto;
+    width: 70%;
+}
+
+.about-pic {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.works-title {
+    font-size: 1.3em;
+    font-weight: 600;
+    border-bottom: 2px solid #78b2d8;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.work-pic {
+    width: 100%;
+    padding: 10px;
+}
+
+.work-description {
+    font-size: 1.2em;
+    margin-top: 10px;
+    letter-spacing: .5px;
+    padding: .3pc
+}
+
+.map-container {
+    width: 100%;
+}
+
+@media only screen and (max-width:992px) {
+    .about-text {
+        font-size: 1.15em;
+    }
+}
+
+@-webkit-keyframes gradient {
+    0% {
+        background: #145A32;
+    }
+    50% {
+        background: #78b2d8;
+    }
+    100% {
+        background: #F1C40F;
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background: #145A32;
+    }
+    50% {
+        background: #78b2d8;
+    }
+    100% {
+        background: #F1C40F;
+    }
+}
