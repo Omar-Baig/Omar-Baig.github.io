@@ -115,8 +115,15 @@ header {
     margin-bottom: 10px;
 }
 
-.fa-mobile-alt {
+.fa-mobile-alt,
+.fa-comments,
+.fa-book,
+.fa-users {
     font-size: 2.0em;
+}
+
+.skills-desc {
+    font-size: 1.1em;
 }
 
 .about-text {
@@ -142,6 +149,8 @@ header {
     border: 3px solid #145A32;
     margin: 2pc auto;
     width: 70%;
+    letter-spacing: 3px;
+    word-spacing: 5px;
 }
 
 .about-pic {
@@ -153,7 +162,7 @@ header {
     font-size: 1.3em;
     font-weight: 600;
     border-bottom: 2px solid #78b2d8;
-    width: 200px;
+    width: 170px;
     margin: 0 auto;
 }
 
