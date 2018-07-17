@@ -100,6 +100,25 @@ header {
     margin-top: 2px;
 }
 
+.col-sm-2 {
+    margin: 1pc;
+}
+
+.skills-container {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.icon-container {
+    font-size: 2.0em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fa-mobile-alt {
+    font-size: 2.0em;
+}
+
 .about-text {
     font-size: 1.17em;
     letter-spacing: 1px;
