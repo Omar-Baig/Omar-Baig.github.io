@@ -99,8 +99,8 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <div id="map">
-                            <div class="map-container"></div>
+                        <div class="map-container">
+                            <div id="map" style="width:100%; height:400px;"></div>
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -128,6 +128,7 @@
                 minDistance: 100
             });
         };
+
     </script>
     <script>
         function myMap() {
@@ -137,6 +138,7 @@
             };
             var map = new google.maps.Map(document.getElementById("map"), mapProp);
         }
+
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8Ugcx3XR05St4uyZqdxtdVNTHsXXlmsg&callback=myMap"></script>
 
