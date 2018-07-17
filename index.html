@@ -51,6 +51,23 @@
             <div class="col-sm-6">
                 <img src="blackcat.jpg" class="about-pic">
             </div>
+            <!--            Skills-->
+            <div class="col-lg-12 text-center">
+                <div class="title-container">
+                    <h2 class="section-heading-text">Skills</h2>
+                    <hr class="line">
+                    <h4 class="section-sub-heading">The languages I use</h4>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="works-title">
+                    <p class="text-center">Responsive Design</p>
+                </div>
+                <img class="work-pic">
+                <div class="">
+                    <p class="">lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor</p>
+                </div>
+            </div>
             <!--Works Section-->
             <div id="Works">
                 <div class="col-sm-12 text-center">
@@ -128,17 +145,19 @@
                 minDistance: 100
             });
         };
-
     </script>
     <script>
         function myMap() {
             var mapProp = {
-                center: new google.maps.LatLng(51.508742, -0.120850),
+                center: new google.maps.LatLng(42.3528165, -83.1692445),
                 zoom: 5,
             };
             var map = new google.maps.Map(document.getElementById("map"), mapProp);
+            var marker = new google.maps.Marker({
+                position: center,
+                animation: google.maps.Animation.BOUNCE
+            });
         }
-
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8Ugcx3XR05St4uyZqdxtdVNTHsXXlmsg&callback=myMap"></script>
 
