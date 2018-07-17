@@ -100,10 +100,6 @@ header {
     margin-top: 2px;
 }
 
-.col-sm-2 {
-    margin: 1pc;
-}
-
 .skills-container {
     width: 100%;
     overflow-x: hidden;
@@ -123,7 +119,7 @@ header {
 }
 
 .skills-desc {
-    font-size: 1.1em;
+    font-size: 1.125em;
 }
 
 .about-text {
