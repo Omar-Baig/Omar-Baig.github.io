@@ -34,7 +34,6 @@
                 <button class="col-sm-4 button-link text-center left-line-out animated infinite pulse">Contact</button>
             </div>
         </div>
-
     </header>
     <section>
         <div class="area-section container">
@@ -176,7 +175,6 @@
                     <div class="gradient"></div>
                     <p class="made"><strong>Made by: Omar Baig</strong></p>
                 </div>
-
             </footer>
         </div>
     </section>
@@ -222,7 +220,7 @@
     <script>
         function myMap() {
             var mapCanvas = document.getElementById("map");
-            var myCenter = new google.maps.LatLng(42.3528165, -83.1692445);
+            var myCenter = new google.maps.LatLng(42.3314, -83.0458);
             var mapOptions = {
                 center: myCenter,
                 zoom: 5
@@ -230,14 +228,10 @@
             var map = new google.maps.Map(mapCanvas, mapOptions);
             var marker = new google.maps.Marker({
                 position: myCenter,
-                animation: google.maps.Animation.BOUNCE
             });
             marker.setMap(map);
         }
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8Ugcx3XR05St4uyZqdxtdVNTHsXXlmsg&callback=myMap"></script>
-
-
 </body>
-
 </html>
