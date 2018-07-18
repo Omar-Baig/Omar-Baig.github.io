@@ -36,7 +36,7 @@ header {
     display: inline-block;
     position: relative;
     padding-bottom: 3px;
-    color: #d6c32d;
+    color: #000000;
     z-index: 99;
 }
 
@@ -53,27 +53,30 @@ header {
 
 .left-line-out:hover:after {
     width: 100%;
-    background: #d6c32d;
+    background: #000000;
     z-index: 99;
 }
 
 .name {
     font-size: 38px;
-    color: #007900;
+    color: #000000;
+    font-weight: 600;
 }
 
 .subtitle {
     font-size: 18px;
-    color: #007900;
+    color: #000000;
+    font-weight: 600;
 }
 
 .button-links {
-    color: #d6c32d;
+    color: black;
     left: 0;
     position: relative;
     text-align: center;
     margin: 0 auto;
     max-width: 500px;
+    font-weight: 600;
 }
 
 .button-link {
@@ -145,8 +148,8 @@ header {
     border: 3px solid #145A32;
     margin: 2pc auto;
     width: 70%;
-    letter-spacing: 3px;
-    word-spacing: 5px;
+    letter-spacing: 2px;
+    word-spacing: 1px;
 }
 
 .about-pic {
