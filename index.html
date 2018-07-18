@@ -81,7 +81,7 @@
                         <i class="far fa-comments"></i>
                     </div>
                     <div class="">
-                        <p class="text-center skills-desc">I know communication is key when working with people. That is why it is one of my main skills.</p>
+                        <p class="text-center skills-desc">I have excellent written and verbal communication and can speak three languages. Along with presenting and listening skills.</p>
                     </div>
                 </div>
                 <div class="col-sm-3">
@@ -191,7 +191,31 @@
                 speed: .3,
                 maxParticles: 150,
                 color: ['#145A32', '#78b2d8', '#F1C40F'],
-                minDistance: 100
+                minDistance: 100,
+                responsive: [{
+                    breakpoint: 1600,
+                    options: {
+                        maxParticles: 80,
+                        connectParticles: true
+                    },
+                    breakpoint: 1200,
+                    options: {
+                        maxParticles: 40,
+                        connectParticles: true
+                    },
+                    breakpoint: 768,
+                    options: {
+                        maxParticles: 20,
+                        speed: .1
+                    },
+                    breakpoint: 500,
+                    options: {
+                        maxParticles: 10,
+                        sizeVariations: 15,
+                        speed: .1,
+                        connectParticles: false
+                    }
+                }]
             });
         };
     </script>
