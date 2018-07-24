@@ -11,7 +11,7 @@ header {
     height: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+    overflow-x: inherit;
 }
 
 .background {
@@ -182,6 +182,7 @@ header {
     margin-top: 120px;
     padding: 1pc;
     border: 1px solid;
+    font-size: 1.3em;
 }
 
 .footer {
@@ -193,9 +194,32 @@ header {
     font-size: .85em
 }
 
+.scroll-down {
+    position: absolute;
+    font-size: 2em;
+    left: 50%;
+    top: 55%;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover,
+a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
 @media only screen and (max-width:992px) {
     .about-text {
         font-size: 1.15em;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .contact-info {
+        margin-top: 10px;
     }
 }
 
