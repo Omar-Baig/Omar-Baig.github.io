@@ -11,7 +11,6 @@ header {
     height: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    overflow-x: inherit;
 }
 
 .background {
@@ -103,11 +102,6 @@ header {
     margin-top: 2px;
 }
 
-.skills-container {
-    width: 100%;
-    overflow-x: hidden;
-}
-
 .icon-container {
     font-size: 2.0em;
     margin-top: 10px;
@@ -195,10 +189,8 @@ header {
 }
 
 .scroll-down {
-    position: absolute;
+    margin: 42% auto;
     font-size: 2em;
-    left: 50%;
-    top: 55%;
 }
 
 a {
