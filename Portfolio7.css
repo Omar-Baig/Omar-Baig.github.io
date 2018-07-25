@@ -11,8 +11,13 @@ header {
     height: 100%;
     margin: 0;
     font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
 }
+
+html {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
 
 .background {
     position: absolute;
@@ -20,6 +25,7 @@ header {
     top: 0;
     left: 0;
     z-index: -1;
+
 }
 
 .intro {
