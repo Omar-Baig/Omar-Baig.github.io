@@ -236,7 +236,6 @@
                 }]
             });
         };
-
     </script>
     <script>
         function myMap() {
@@ -252,7 +251,6 @@
             });
             marker.setMap(map);
         }
-
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8Ugcx3XR05St4uyZqdxtdVNTHsXXlmsg&callback=myMap"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -262,7 +260,6 @@
             duration: 2000,
 
         })
-
     </script>
     <script src="zenscroll-min.js"></script>
     <script>
@@ -273,7 +270,7 @@
 
         function scrollToSkills() {
             var skills = document.getElementById("Skills");
-            zenscroll.center(skills);
+            zenscroll.to(skills);
         }
 
         function scrollToWorks() {
@@ -285,7 +282,6 @@
             var contact = document.getElementById("Contact");
             zenscroll.to(contact);
         }
-
     </script>
 </body>
 
