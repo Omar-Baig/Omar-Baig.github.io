@@ -214,6 +214,7 @@ a:hover,
 a:active {
     color: inherit;
     text-decoration: none;
+    cursor: pointer;
 }
 
 @media only screen and (max-width:992px) {
