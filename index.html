@@ -26,7 +26,7 @@
         </div>
         <div class="button-links">
             <div>
-                <a onclick="scrollToAbout()"><button class="col-sm-3 button-link text-center left-line-out animated infinite pulse">About</button></a>
+                <a onclick="scrollToAbout()"><button onclick="scrollToAbout()"class="col-sm-3 button-link text-center left-line-out animated infinite pulse">About</button></a>
             </div>
             <div>
                 <a onclick="scrollToSkills()"><button class="col-sm-3 button-link text-center left-line-out animated infinite pulse">Skills</button></a>
@@ -145,7 +145,8 @@
                         <div class="works-title">
                             <p class="text-center">AIO Portfolio</p>
                         </div>
-                        <a href="https://github.com/Omar-Baig/AIO-Portfolio"><img src="AIO.PNG" class="work-pic">
+                        <a href="https://github.com/Omar-Baig/AIO-Portfolio">
+                            <img src="AIO.PNG" class="work-pic">
                     <div class="work-description">
                         <p class="text-center">A website based on a fictious web agency. It emulates what a common web agency would have for a landing page.</p>
                         </div></a>
@@ -261,7 +262,7 @@
 
         })
     </script>
-<!--    <script src="zenscroll-min.js"></script>-->
+<script src="zenscroll-min.js"></script>
     <script>
         function scrollToAbout() {
             var about = document.getElementById("about");
