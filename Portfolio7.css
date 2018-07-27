@@ -108,7 +108,7 @@ body {
 .gradient {
     width: 100%;
     height: .5em;
-    animation: gradient 25s infinite;
+    animation: gradient 60s infinite;
     z-index: 99;
     margin-top: 2px;
 }
